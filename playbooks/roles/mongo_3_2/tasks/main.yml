@@ -44,7 +44,7 @@
 
 - name: add the mongodb signing key
   apt_key:
-    url: "https://www.mongodb.org/static/pgp/server-{{ MONGO_VERSION_MAJOR_MINOR }}.asc"
+    url: "https://www.mongodb.org/static/pgp/server-4.4.asc"
     state: present
   retries: 3
   tags:
